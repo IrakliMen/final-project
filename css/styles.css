@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.fa-bars {
+.burger, .xmark {
     display: none;
 }
 header, .header_ul, .header_icons {
