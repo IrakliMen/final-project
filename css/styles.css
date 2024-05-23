@@ -166,9 +166,13 @@ header, .header_ul, .header_icons {
 footer {
     display: flex;
     background-color: #2C4246;
-    padding: 48px 306px;
-    column-gap: 240px;
-    align-items: start;
+    padding: 48px 0;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container {
+    display: flex;
+    column-gap: 219px;
 }
 h4 {
     font-size: 24px;
