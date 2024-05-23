@@ -36,9 +36,16 @@ header, .header_ul, .header_icons {
 }
 .logo_link {
     transition: all 0.2s linear;
+    width: 64px;
+    height: 64px;
+    display: inline-flex;
 }
 .logo_link:hover {
     scale: 1.2;
+}
+.logo {
+    width: 100%;
+    height: 100%;
 }
 .header_icons {
     column-gap: 28px;
@@ -51,9 +58,10 @@ header, .header_ul, .header_icons {
     cursor: pointer;
     scale: 1.1;
 }
+
 /* section2 (cover) */
 .cover{
-    margin-top: 99px;
+    margin-top: 96px;
     height: 560px;
     background-image: url(../img/Rectangle\ 12.png);
     background-repeat: no-repeat;
@@ -166,14 +174,11 @@ header, .header_ul, .header_icons {
 footer {
     display: flex;
     background-color: #2C4246;
-    padding: 48px 0;
-    justify-content: center;
-    align-items: center;
+    padding: 48px 300px;
+    justify-content: space-between;
+    align-items: start;
 }
-.footer_container {
-    display: flex;
-    column-gap: 219px;
-}
+
 h4 {
     font-size: 24px;
     line-height: 32px;
@@ -213,7 +218,7 @@ h4, .link_li_foot {
 
 /* section 1(contact cover) */
 .contact {
-    margin-top: 99px;
+    margin-top: 96px;
     height: 720px;
     background-image: url(../img/Rectangle\ 7.png);
     background-repeat: no-repeat;
@@ -229,8 +234,7 @@ h4, .link_li_foot {
     display: flex;
     flex-direction: column;
     width: 616px;
-    row-gap: 40px;
-    
+    row-gap: 36px;
 }
 .contact_title {
     font-weight: 700;
@@ -274,10 +278,9 @@ form {
 .inputs {
     display: flex;
     column-gap: 8px;
+    width: 100%;
 }
 .input_box {
-    background-color: #05BCCA;
-    flex: 1;
     height: 30px;
 }
 #name, #email {
@@ -309,6 +312,7 @@ textarea {
     row-gap: 32px;
     height: 151px;
     align-items: end;
+    flex: 1;
 }
 iframe {
     width: 100%;

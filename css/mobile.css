@@ -1,1 +1,13 @@
 /* 480px-320px */
+@media (max-width: 321px) {
+    /* section 1(contact cover) */
+    /* .inputs {
+        column-gap: 8px;
+    } */
+}
+@media (max-width: 321px) {
+    /* section3 (products) */
+    .products {
+        padding: 32px 0 32px 8px;
+    }
+}
