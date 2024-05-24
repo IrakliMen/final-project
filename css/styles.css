@@ -41,12 +41,19 @@ header, .header_ul, .header_icons {
     display: inline-flex;
 }
 .logo_link:hover {
-    scale: 1.2;
+    scale: 1.1;
 }
 .logo {
     width: 100%;
     height: 100%;
+    animation: spin 4s infinite linear;
 }
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+  }
+  
 .header_icons {
     column-gap: 28px;
 }
@@ -183,13 +190,11 @@ h4 {
     font-size: 24px;
     line-height: 32px;
 } 
-h4::after {
-    content: "";
+.line {
     width: 80px;
     height: 2px;
     border-radius: 2px;
     background-color: #D9D9D9;
-    display: block;
     margin-block: 4px 24px;
 }
 h4, .link_li_foot {

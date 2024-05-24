@@ -99,7 +99,7 @@
     .social_icons {
         justify-content: center;
     }
-    .h4::after {
+    .line {
         margin-inline: auto;
     }
 }
