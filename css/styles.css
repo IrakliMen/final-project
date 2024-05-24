@@ -385,6 +385,41 @@ h5 {
     border: 2px solid #05BCCA;
     border-radius: 10px;
 }
+.pages {
+    display: flex;
+    margin-top: 64px;
+    margin-inline: auto;
+    justify-content: center;
+}
+.pages, .page_arrows, .page_btn {
+    display: flex;
+
+}
+.page_arrows {
+    column-gap: 48px;
+    align-items: center;
+}
+.page_btn {
+    padding: 8px;
+    align-items: center;
+    background-color: #C46A2B;
+    border: none;
+    border-radius: 8px;
+}
+.page_btn:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+.blue_btn {
+    background-color: #05BCCA;
+}
+.p_button, .p_midlle {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D9D9D9;
+}
 /* section 1(contact cover) */
 .contact {
     margin-top: 96px;

@@ -146,4 +146,13 @@
     .catalog_title, .filter_span {
         display: none;
     }
+    .page_arrows {
+        column-gap: 45px;
+    }
+    .p_button {
+        display: none;
+    }
+    .page_btn {
+        padding-inline: 14px;
+    }
 }
