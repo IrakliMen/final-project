@@ -354,7 +354,6 @@ h5 {
 .guitar_card {
     display: flex;
     flex-direction: column;
-    /* width: 298px; */
 }
 .card_bottom {
     padding: 16px 8px;
